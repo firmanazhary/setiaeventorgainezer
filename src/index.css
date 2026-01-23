@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* 1. Import Google Fonts (Poppins & Playfair) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* 2. Definisi Tema (Pengganti tailwind.config.js) */
+@theme {
+  /* Colors: Luxury Dark Palette */
+  --color-luxury-black: #050505;
+  --color-luxury-card: #121212;
+  --color-luxury-gold: #D4AF37;
+  --color-gold-light: #FBBF24;
+  --color-gold-dark: #B45309;
+
+  /* Fonts */
+  /* --font-sans otomatis menimpa font default 'sans' tailwind */
+  --font-sans: "Poppins", sans-serif;
+  --font-heading: "Playfair Display", serif;
+}
+
+/* 3. Global Styles & Reset */
+@layer base {
+  body {
+    background-color: var(--color-luxury-black);
+    color: #ffffff;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+}
+
+/* 4. Custom Scrollbar (Opsional, biar rapi) */
+@layer utilities {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-luxury-black);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-luxury-gold);
+  }
+}
