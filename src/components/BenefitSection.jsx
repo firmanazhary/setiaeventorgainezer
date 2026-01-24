@@ -25,7 +25,7 @@ const BenefitSection = () => {
           {[
             "Cara agar suami makin setia, tidak berpaling ke lain hati",
             "Cara agar istri semakin mempesona di mata suami",
-            "Bagaimana cara menghargai suami, agar makin harmonis dan setia",
+            "Bagaimana cara menghargai suami, agar makin harmonis",
             "Cara memahami Bahasa cinta pasangan",
             "Menemukan arah dan visi keluarga",
             "Bagaimana cara membahagiakan suami dan istri",
