@@ -48,7 +48,7 @@ const OrderForm = () => {
     message += `Tagihan : *Rp ${pkg.rawPrice ? pkg.rawPrice.toLocaleString('id-ID') : pkg.price}*\n`;
     message += `----------------------------------\n`;
     message += `✅ *STATUS PEMBAYARAN*\n`;
-    message += `User menyatakan siap melakukan pembayaran.\n`;
+    message += `User menyatakan sudah melakukan pembayaran.\n`;
     message += `_Mohon info rekening/validasi bukti transfer._`;
 
     const waUrl = `https://wa.me/${adminPhone}?text=${encodeURIComponent(message)}`;
@@ -138,7 +138,7 @@ const OrderForm = () => {
                   className="w-5 h-5 mt-0.5 text-[#D4AF37] rounded focus:ring-[#D4AF37] bg-black border-gray-600 accent-[#D4AF37]"
                 />
                 <div className="text-sm">
-                  <span className="font-bold text-gray-200">Saya siap melakukan pembayaran.</span>
+                  <span className="font-bold text-gray-200">Saya sudah melakukan pembayaran.</span>
                   <p className="text-gray-500 text-xs mt-1 leading-relaxed">
                     Setelah klik tombol kirim, Anda akan diarahkan ke WhatsApp Admin untuk validasi pesanan.
                   </p>

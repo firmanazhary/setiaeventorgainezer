@@ -31,7 +31,7 @@ const SpeakerSection = () => {
         <div className="text-left space-y-4 md:px-10">
           {[
             "Suami yang beruntung beristrikan Manda Ina Agustina, Ayah dari 3 putra dan 1 putri",
-            "Influencer dengan lebih dari ratusan ribu follower ( IG, Facebook, Youtube, Tiktok )",
+            "Influencer dengan lebih dari 1 juta follower ( IG, Facebook, Youtube, Tiktok )",
             "Motivator muda dengan alumni ratusan ribu orang di hampir di seluruh Indonesia dari tahun 2009",
             "Founder Kelasjodoh dengan 32.000 alumni",
             "Konsultan pernikahan dan bisnis",
