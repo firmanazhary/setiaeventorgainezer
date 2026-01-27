@@ -1,7 +1,7 @@
 import React from "react";
 // import { Sparkles } from "lucide-react";
 // import { motion } from "framer-motion";
-import bgHero from "../assets/bg/bg1.png";
+import bgHero from "../assets/bg/bg.png";
 
 const Hero = () => {
   return (
@@ -69,7 +69,7 @@ const Hero = () => {
 
     //   </div>
     // </section>
-    <section className="md:mb-0 mb-10">
+    <section className="md:mb-0 mb-20">
       <img src={bgHero} className="w-full" alt="Background Hero" />
     </section>
   );
