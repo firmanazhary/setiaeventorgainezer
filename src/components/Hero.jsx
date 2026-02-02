@@ -70,7 +70,7 @@ const Hero = () => {
     //   </div>
     // </section>
     <section className="md:mb-0 mb-20">
-      <img src={bgHero} className="w-full" alt="Background Hero" />
+      <img src={bgHero} className="w-full h-full" alt="Background Hero" />
     </section>
   );
 };
